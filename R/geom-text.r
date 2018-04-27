@@ -132,6 +132,7 @@ geom_text <- function(mapping = NULL, data = NULL,
                       check_overlap = FALSE,
                       na.rm = FALSE,
                       show.legend = NA,
+                      key.legend = "a",
                       inherit.aes = TRUE)
 {
   if (!missing(nudge_x) || !missing(nudge_y)) {
@@ -154,6 +155,7 @@ geom_text <- function(mapping = NULL, data = NULL,
       parse = parse,
       check_overlap = check_overlap,
       na.rm = na.rm,
+      key.legend = key.legend,
       ...
     )
   )
